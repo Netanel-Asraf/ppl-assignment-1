@@ -13,7 +13,6 @@ export const countVowels: (s: string) => number = (s: string): number => {
 };
 
 /* Question 2.2 */
-// Helper function
 const checkPalindrome = (arr: string[]): boolean => 
     (arr.length <= 1) ? true : ((R.head(arr) !== R.last(arr)) ? false : checkPalindrome(arr.slice(1, arr.length - 1)));
 

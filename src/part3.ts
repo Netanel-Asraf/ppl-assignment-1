@@ -1,4 +1,3 @@
-import { find } from "ramda";
 import { Result, makeFailure, makeOk, bind, either } from "./lib/result";
 
 /* Library code */
